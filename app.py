@@ -6,7 +6,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Halil____5455",  # Örn: "" veya "1234"
+    password="admin123",  # Örn: "" veya "1234"
     database="mqtt_verileri"
 )
 cursor = db.cursor()
